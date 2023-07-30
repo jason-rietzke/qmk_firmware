@@ -78,5 +78,10 @@ qmk compile -kb redox-jason -km german
 Flash the firmware to the lefthand side (master):
 
 ```sh
-avrdude -c avr109 -p atmega32u4 -P /dev/tty.usbmodem1101 -U flash:w:"./.build/redox-jason_rev1_base_german.hex":i
+avrdude -c avr109 -p atmega32u4 -P /dev/tty.usbmodem1101 -U flash:w:"./.build/redox_jason_rev1_base_german.hex":i
 ```
+
+
+
+
+
