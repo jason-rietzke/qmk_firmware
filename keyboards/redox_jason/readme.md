@@ -72,7 +72,7 @@ avrdude -c avr109 -p m32u4 -P /dev/tty.usbmodem1101 -U eeprom:w:"./quantum/split
 Compile the keyboard layout:
 
 ```sh
-qmk compile -kb redox-jason -km german
+qmk compile -kb redox_jason -km german
 ```
 
 Flash the firmware to the lefthand side (master):
